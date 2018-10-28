@@ -8,6 +8,13 @@ The repository contains a Visual Studio 2017 solution to facilitate editing the 
 
 Copy those files to a convenient place on your local disk. I recommend placing the script file LayerScale.cs to your EPLAN $(MD_SCRIPTS) folder, and the LayerTransform.xsl file to your EPLAN $(MD_SCHEME) folder.
 
+### Principle of operation
+EPLAN layer schemes can be exported to an *.elc file, which is in reality an XML file. As such, we can apply an XSL Transform to that file, and one possibility is to apply a math operation on a specific XML attribute.
+
+For layer scheme files, each layer node has an attribute named *A961*. The provided XSL file applies a multiplicand to this attribute for each layer node.
+
+The multiplicand can therefore scale UP (>1), or scale DOWN (<1).
+
 ## Follow those steps to use:
 
 1. Associate this script to a toolbar button, assigning the Command Line "ScaleLayerAction"
