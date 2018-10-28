@@ -3,8 +3,8 @@ EPLAN script to facilitate applying an XSL Transform to an EPLAN Layer scheme.
 
 The repository contains a Visual Studio 2017 solution to facilitate editing the script file, but the only needed files are in the *LayerScale* folder:
 
-LayerScale.cs
-LayerTransform.xsl
+* LayerScale.cs
+* LayerTransform.xsl
 
 Copy those files to a convenient place on your local disk. I recommend placing the script file LayerScale.cs to your EPLAN $(MD_SCRIPTS) folder, and the LayerTransform.xsl file to your EPLAN $(MD_SCHEME) folder.
 
