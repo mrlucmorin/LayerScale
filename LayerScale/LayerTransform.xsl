@@ -6,7 +6,7 @@
   </xsl:copy>
 </xsl:template>
 <xsl:template match="/EplanPxfRoot/O76/S54x1432/@A961">
-  <!--Edit the following line to reflect the desired scaling factor-->
-  <xsl:attribute name="A961"><xsl:value-of select="/EplanPxfRoot/O76/S54x1432/@A961 * 1.25"/></xsl:attribute>
+  <!--Edit the following line to set the scaling factor-->
+  <xsl:attribute name="A961"><xsl:value-of select=". * 1.25"/></xsl:attribute>
 </xsl:template>
 </xsl:stylesheet>

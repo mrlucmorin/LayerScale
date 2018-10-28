@@ -407,7 +407,7 @@ public class LayerScaleForm : Form
         var xslt = new System.Xml.Xsl.XslCompiledTransform();
         xslt.Load(FormData.XslTransformPath);
         xslt.Transform(FormData.InputSchemePath, FormData.OutputSchemePath);
-        MessageBox.Show("Transform done");
+        MessageBox.Show("Transform done", "Action completed", MessageBoxButtons.OK, MessageBoxIcon.Information);
     }
 
 }
