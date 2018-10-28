@@ -11,7 +11,7 @@ Copy those files to a convenient place on your local disk. I recommend placing t
 ### Principle of operation
 EPLAN layer schemes can be exported to an *.elc file, which is in reality an XML file. As such, we can apply an XSL Transform to that file, and one possibility is to apply a math operation on a specific XML attribute.
 
-For layer scheme files, each layer node has an attribute named *A961*. The provided XSL file applies a multiplicand to this attribute for each layer node.
+For layer scheme files, each layer node has an attribute named *A961*. The provided XSL file applies a multiplier to the value of this attribute for each layer node.
 
 The multiplicand can therefore scale UP (>1), or scale DOWN (<1).
 
