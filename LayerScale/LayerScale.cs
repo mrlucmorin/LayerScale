@@ -55,7 +55,7 @@ public class RegisterScriptMenu
         form.ShowDialog();
     }
 
-    [DeclareMenu]
+    [DeclareMenu] 
     public void MenuFunction()
     {
         Eplan.EplApi.Gui.Menu oMenu = new Eplan.EplApi.Gui.Menu();
