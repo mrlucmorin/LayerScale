@@ -18,7 +18,9 @@ The multiplicand can therefore scale UP (>1), or scale DOWN (<1).
 ## Follow those steps to use:
 
 1. Load the script in EPLAN: Utilities > Scripts > Load...
-1. Associate this script to a toolbar button, assigning the Command Line "ScaleLayerAction"
+1. 
+    1. Use the "Scale layer tool" menu point under Utilities
+    1. Associate this script to a toolbar button, assigning the Command Line "ScaleLayerAction"
 1. Export the current Layer Scheme to file (*.elc)
 1. Launch the script by clicking the toolbar button
 1. In the dialog, select the 3 paths:
