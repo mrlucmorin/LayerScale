@@ -54,6 +54,13 @@ public class RegisterScriptMenu
         LayerScaleForm form = new LayerScaleForm();
         form.ShowDialog();
     }
+
+    [DeclareMenu]
+    public void MenuFunction()
+    {
+        Eplan.EplApi.Gui.Menu oMenu = new Eplan.EplApi.Gui.Menu();
+        oMenu.AddMenuItem("Sacle layers tool", "ScaleLayerAction");
+    }
 }
 
 public class FormData : INotifyPropertyChanged
