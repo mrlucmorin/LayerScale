@@ -59,7 +59,7 @@ public class RegisterScriptMenu
     public void MenuFunction()
     {
         Eplan.EplApi.Gui.Menu oMenu = new Eplan.EplApi.Gui.Menu();
-        oMenu.AddMenuItem("Sacle layers tool", "ScaleLayerAction");
+        oMenu.AddMenuItem("Scale layers tool", "ScaleLayerAction");
     }
 }
 
