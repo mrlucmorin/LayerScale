@@ -22,7 +22,7 @@ The multiplicand can therefore scale UP (>1), or scale DOWN (<1).
     1. Use the "Scale layer tool" menu point under Utilities
     1. Associate this script to a toolbar button, assigning the Command Line "ScaleLayerAction"
 1. Export the current Layer Scheme to file (*.elc)
-1. Launch the script by clicking the toolbar button
+1. Launch the script either by clicking the toolbar button, or by using the Utilities > Scale layer tool menu point
 1. In the dialog, select the 3 paths:
     1. Input scheme which was exported earlier
     1. XSL Transform file provided with script
